@@ -1,0 +1,13 @@
+{
+  "colorizer": {
+    "url": "https://github.com/luisbocanegra/plasma-panel-colorizer.git",
+    "commit": "d0b1d4cab773f05cdcda2c1b2970093a5c367b54",
+    "version": "8.0.0",
+    "license": "GPL-3.0"
+  },
+  "icons": {
+    "url": "https://github.com/vinceliuice/MacTahoe-icon-theme.git",
+    "commit": "839848b9a8a38a92a6936e30c4abe35cc6f2546d",
+    "license": "GPL-3.0"
+  }
+}

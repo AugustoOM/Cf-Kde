@@ -1,0 +1,12 @@
+[SddmGreeterTheme]
+Name=Cf-Kde
+Description=Login centrado con fondo Raycast
+Author=Local
+License=MIT
+Type=sddm-theme
+Version=1.0
+MainScript=Main.qml
+ConfigFile=theme.conf
+Theme-Id=cf-kde
+Theme-API=2.0
+QtVersion=6

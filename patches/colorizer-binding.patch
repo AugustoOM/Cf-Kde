@@ -1,0 +1,18 @@
+--- a/package/contents/ui/main.qml
++++ b/package/contents/ui/main.qml
+@@ -112,8 +112,13 @@
+         const config = Utils.mergeConfigs(Globals.defaultConfig, globalSettings);
+         const configStr = JSON.stringify(config);
+         if (Plasmoid.configuration.globalSettings !== configStr) {
+-            Plasmoid.configuration.globalSettings = configStr;
+-            Plasmoid.configuration.writeConfig();
++            const previousStr = Plasmoid.configuration.globalSettings;
++            Qt.callLater(function() {
++                if (Plasmoid.configuration.globalSettings === previousStr) {
++                    Plasmoid.configuration.globalSettings = configStr;
++                    Plasmoid.configuration.writeConfig();
++                }
++            });
+         }
+         return config;
+     }

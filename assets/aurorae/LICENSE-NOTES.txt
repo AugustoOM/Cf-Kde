@@ -1,0 +1,1 @@
+Decoration frame derived from installed Lavender-Dark-transparent by Dharam Dhurandhar, GPLv3. Local changes and original button vectors provided under GPLv3. Original source: /usr/share/aurorae/themes/Lavender-Dark-transparent.

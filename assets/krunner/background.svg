@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+<rect id="center" x="16" y="16" width="8" height="8" fill="#211b20" fill-opacity="0.96"/>
+<rect id="top" x="16" y="0" width="8" height="16" fill="#211b20" fill-opacity="0.96"/>
+<rect id="bottom" x="16" y="24" width="8" height="16" fill="#211b20" fill-opacity="0.96"/>
+<rect id="left" x="0" y="16" width="16" height="8" fill="#211b20" fill-opacity="0.96"/>
+<rect id="right" x="24" y="16" width="16" height="8" fill="#211b20" fill-opacity="0.96"/>
+<path id="topleft" d="M 16 0 A 16 16 0 0 0 0 16 H 16 Z" fill="#211b20" fill-opacity="0.96"/>
+<path id="topright" d="M 24 0 A 16 16 0 0 1 40 16 H 24 Z" fill="#211b20" fill-opacity="0.96"/>
+<path id="bottomleft" d="M 0 24 A 16 16 0 0 0 16 40 V 24 Z" fill="#211b20" fill-opacity="0.96"/>
+<path id="bottomright" d="M 40 24 A 16 16 0 0 1 24 40 V 24 Z" fill="#211b20" fill-opacity="0.96"/><rect id="mask-center" x="16" y="16" width="8" height="8" fill="#ffffff" fill-opacity="1"/>
+<rect id="mask-top" x="16" y="0" width="8" height="16" fill="#ffffff" fill-opacity="1"/>
+<rect id="mask-bottom" x="16" y="24" width="8" height="16" fill="#ffffff" fill-opacity="1"/>
+<rect id="mask-left" x="0" y="16" width="16" height="8" fill="#ffffff" fill-opacity="1"/>
+<rect id="mask-right" x="24" y="16" width="16" height="8" fill="#ffffff" fill-opacity="1"/>
+<path id="mask-topleft" d="M 16 0 A 16 16 0 0 0 0 16 H 16 Z" fill="#ffffff" fill-opacity="1"/>
+<path id="mask-topright" d="M 24 0 A 16 16 0 0 1 40 16 H 24 Z" fill="#ffffff" fill-opacity="1"/>
+<path id="mask-bottomleft" d="M 0 24 A 16 16 0 0 0 16 40 V 24 Z" fill="#ffffff" fill-opacity="1"/>
+<path id="mask-bottomright" d="M 40 24 A 16 16 0 0 1 24 40 V 24 Z" fill="#ffffff" fill-opacity="1"/>
+<rect id="hint-top-margin" x="0" y="0" width="10" height="10" fill="none"/>
+<rect id="hint-bottom-margin" x="0" y="0" width="10" height="10" fill="none"/>
+<rect id="hint-left-margin" x="0" y="0" width="10" height="10" fill="none"/>
+<rect id="hint-right-margin" x="0" y="0" width="10" height="10" fill="none"/>
+</svg>
